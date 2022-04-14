@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&family=Roboto:ital,wght@0,300;0,400;1,400;1,500&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'Roboto';
+}
+
+header {
+   width: 100%; 
+   height: 25px;
+   font-size: 0.8rem;
+   background-color: black;
+   color:white;
+   padding: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+.subtitle{
+    text-align: center;
+}
+
+.container-pai{
+    border: 1px solid green;
+    margin:10px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.384);
+    border-radius: 15px;
+
+}
+
+.card1{
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 80vh;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.text{
+    
+    display: flex;
+    align-items: center;
+    width: 70vw;
+    text-align: justify;
+    font-size: 0.8rem;
+    padding-top: 10px;
+    
+}
+
+#image-div{
+    margin-bottom: 50px;
+    
+}
+
+#tribute-link{
+    font-size: 0.7rem;
+     
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+    height: 25px;
+    padding-top:5px;
+
+}
